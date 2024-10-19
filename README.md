@@ -49,6 +49,8 @@ python network_port_scanner.py -i <interface> [-t <threads> -os <OS> -u <url> -f
 python network_port_scanner.py -i wlan0 -t 50 -os linux -u "http://example.com/file.php" -f "scan_output.json"
 ```
 
+![Screenshoot of the scan result](example.png)
+
 ## Output
 
 The program prints the reachable hosts and open ports to the console during execution.
